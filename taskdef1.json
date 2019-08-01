@@ -12,6 +12,18 @@
                     "containerPort": 80
                 }
             ]
+        },
+        {
+            "name": "tomcat01",
+            "image": "<IMAGE2_NAME>",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 8090,
+                    "protocol": "tcp",
+                    "containerPort": 8090
+                }
+            ]
         }
     ],
     "requiresCompatibilities": [
