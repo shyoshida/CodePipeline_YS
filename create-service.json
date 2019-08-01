@@ -1,10 +1,10 @@
 {
-    "taskDefinition": "arn:aws:ecs:ap-northeast-1:707435581004:task-definition/ecs-demo:14",
+    "taskDefinition": "arn:aws:ecs:ap-northeast-1:707435581004:task-definition/ecs-demo:23",
     "cluster": "test-httpd",
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:707435581004:targetgroup/target-group-1/f48626a220b70249",
-            "containerName": "sample-website",
+            "containerName": "nginx01",
             "containerPort": 80
         }
     ],
