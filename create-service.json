@@ -1,5 +1,5 @@
 {
-    "taskDefinition": "arn:aws:ecs:ap-northeast-1:707435581004:task-definition/ecs-demo:23",
+    "taskDefinition": "arn:aws:ecs:ap-northeast-1:707435581004:task-definition/ecs-demo:29",
     "cluster": "test-httpd",
     "loadBalancers": [
         {
