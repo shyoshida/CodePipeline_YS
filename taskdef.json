@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::707435581004:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::532783812193:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "nginx01",
