@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "nginx01",
-            "image": "532783812193.dkr.ecr.ap-northeast-1.amazonaws.com/ys-nginx:latest",
+            "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
                 {
@@ -15,7 +15,7 @@
         },
         {
             "name": "tomcat01",
-            "image": "532783812193.dkr.ecr.ap-northeast-1.amazonaws.com/ys-tomcat:latest",
+            "image": "<IMAGE2_NAME>",
             "essential": true,
             "portMappings": [
                 {
