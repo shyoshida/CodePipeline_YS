@@ -1,9 +1,9 @@
 {
-    "taskDefinition": "arn:aws:ecs:ap-northeast-1:532783812193:task-definition/ecs-demo:41",
+    "taskDefinition": "arn:aws:ecs:ap-northeast-1:532783812193:task-definition/ecs-demo:44",
     "cluster": "YS-ECS-Cluster",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:532783812193:targetgroup/target-group-1/738ec09d82ecf98d",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:532783812193:targetgroup/target-group-1/f3d243cc7f21a4d5",
             "containerName": "nginx01",
             "containerPort": 80
         }
