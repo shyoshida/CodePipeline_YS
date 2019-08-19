@@ -32,5 +32,5 @@
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
-    "family": "ecs-demo-3"
+    "family": "ecs-demo"
 }
