@@ -4,3 +4,6 @@
 Blue/Greenデプロイの環境を構築を実施したものとなります。
 
 ##  各種ファイル説明
+- nginx
+  - conf
+    - default.conf  
