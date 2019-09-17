@@ -15,7 +15,7 @@
         },
         {
             "name": "tomcat01",
-            "image": "<IMAGE2_NAME>",
+            "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
                 {

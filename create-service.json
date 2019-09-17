@@ -1,9 +1,9 @@
 {
-    "taskDefinition": "arn:aws:ecs:ap-northeast-1:532783812193:task-definition/ecs-demo:44",
-    "cluster": "YS-ECS-Cluster",
+    "taskDefinition": "arn:aws:ecs:ap-northeast-1:532783812193:task-definition/ecs-demo:83",
+    "cluster": "test-cluster",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:532783812193:targetgroup/target-group-1/f3d243cc7f21a4d5",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:532783812193:targetgroup/Target-Group1/bde417d06b56a315",
             "containerName": "nginx01",
             "containerPort": 80
         }
@@ -17,11 +17,11 @@
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "subnets": [
-                "subnet-03ccf3d2ec5554a9b",
-                "subnet-07716fa0b82d4cea4"
+                "subnet-0eb5bc8b2090c371f",
+                "subnet-056ced8ee5ffaef1d"
             ],
             "securityGroups": [
-                "sg-055891e3ae9b8a483"
+                "sg-050a8f145675cace4"
             ],
             "assignPublicIp": "ENABLED"
         }
